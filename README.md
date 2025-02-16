@@ -11,8 +11,8 @@ This repository contains the **frontend** and **backend** sections of the applic
 ### 📌 Backend
 
 Navigate to the backend folder:
-   ```bash
-   cd backend
+```bash
+cd backend
 Install dependencies and run the project (example for a Java backend with Maven):
 bash
 mvn clean install
@@ -21,8 +21,8 @@ mvn spring-boot:run
 ### 📌 Frontend
 
 Navigate to the frontend folder:
-   ```bash
-   cd frontend
+```bash
+cd frontend
 Install dependencies and run the project (example for a React frontend):
 bash
 npm install
