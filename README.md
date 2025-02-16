@@ -14,21 +14,15 @@ This repository contains the **frontend** and **backend** sections of the applic
    cd back
 Install dependencies and run the project (example for a Java backend with Maven):
 bash
-Copiar
-Editar
 mvn clean install
 mvn spring-boot:run
 
 ### 📌 Frontend
 Navigate to the frontend folder:
   ```bash
-  cd Copiar
-Editar
 cd front
 Install dependencies and run the project (example for a React frontend):
 bash
-Copiar
-Editar
 npm install
 npm start
 
