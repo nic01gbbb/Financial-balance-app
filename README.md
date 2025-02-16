@@ -3,8 +3,8 @@
 This repository contains the **frontend** and **backend** sections of the application.
 
 ## 📂 Project Structure
-- **`front/`** → Contains the frontend code of the application.
-- **`back/`** → Contains the backend code of the application.
+- **`frontend/`** → Contains the frontend code of the application.
+- **`backend/`** → Contains the backend code of the application.
 
 ## 🚀 How to Run the Project
 
