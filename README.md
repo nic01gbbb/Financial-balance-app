@@ -18,9 +18,9 @@ mvn clean install
 mvn spring-boot:run
 
 ### 📌 Frontend
-Navigate to the frontend folder:
-  ```bash
-cd front
+1. Navigate to the frontend folder:
+   ```bash
+   cd front
 Install dependencies and run the project (example for a React frontend):
 bash
 npm install
