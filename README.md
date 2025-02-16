@@ -7,6 +7,7 @@ This repository contains the **frontend** and **backend** sections of the applic
 - **`back/`** → Contains the backend code of the application.
 
 ## 🚀 How to Run the Project
+
 ### 📌 Backend
 
 1. Navigate to the backend folder:
@@ -16,7 +17,8 @@ Install dependencies and run the project (example for a Java backend with Maven)
 bash
 mvn clean install
 mvn spring-boot:run
-📌 Frontend
+
+### 📌 Frontend
 Navigate to the frontend folder:
 bash
 cd front
