@@ -9,7 +9,7 @@ CREATE TABLE users
     role_id    uuid                                NOT NULL, -- Chave estrangeira para a tabela roles
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    FOREIGN KEY (role_id) REFERENCES roles (id) ON DELETE CASCADE
+    FOREIGN KEY (role_id) REFERENCES roles(id) ON DELETE CASCADE
         ON UPDATE CASCADE                                    -- Relacionamento com roles
 );
 

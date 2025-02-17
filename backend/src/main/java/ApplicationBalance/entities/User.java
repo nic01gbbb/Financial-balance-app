@@ -1,6 +1,4 @@
 package ApplicationBalance.entities;
-
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -29,8 +27,8 @@ public class User {
     private String password; // Store hashed password
 
     @ManyToOne
-    @JoinColumn(name = "role_id")
-    private Role role;
+    @JoinColumn(name = "role_id", nullable = false)
+    private Role role; // ADMIN or USER
 
 
     @Column(name = "created_at", nullable = false, updatable = false)

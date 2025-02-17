@@ -4,7 +4,6 @@ import ApplicationBalance.dtos.user.UserCreateDTO;
 import ApplicationBalance.dtos.user.UserDTO;
 import ApplicationBalance.entities.Role;
 import ApplicationBalance.entities.User;
-import ApplicationBalance.repositories.PermissionRepository;
 import ApplicationBalance.repositories.RoleRepository;
 import ApplicationBalance.repositories.UserRepository;
 import jakarta.validation.Valid;
@@ -32,8 +31,7 @@ public class UserService {
     @Autowired
     RoleRepository roleRepository;
 
-    @Autowired
-    PermissionRepository permissionRepository;
+
 
     // Create a new user
     public ResponseEntity<?> createUser(@Valid UserCreateDTO userCreateDTO) {
